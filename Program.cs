@@ -33,7 +33,7 @@ namespace _3_2_04
                         break;
                     }                    
                 }
-                if (flag == true)             
+                if (flag)             
                     newString += myWord[i] + " ";                
             }
             Console.WriteLine($"newString = {newString}");
